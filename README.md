@@ -42,4 +42,4 @@ CSV Data can be upgraded using the Jupyter notebook in `Resources/data/CSVDataEx
 ## References
 
 * [Bootstrap 5 documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-
+* [Lorem Picsum used for placeholder images during development](https://picsum.photos/)
