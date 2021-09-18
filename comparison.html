@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="assets/css/all.css" rel="stylesheet">
+  <script defer src="assets/js/all.js"></script>
+  <title>City Latitude:Home</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <span class="ml-2">
+          <em class="fas fa-globe fa-lg"></em>
+          City Latitude</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
+              <a class="dropdown-item" href="visualizations/temperature.html">Temperature</a>
+              <a class="dropdown-item" href="visualizations/windspeed.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container d-flex justify-content-center">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card card-style mt-4">
+          <div class="card-header">
+            <h2>Comparison</h2>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <p>Select a card to view a comparison of latitude vs the individual weather phenomenon</p>
+              <div class="col-lg-6 col-12">
+                <a href="visualizations/cloudiness.html" class="visualization-card-link">
+                  <div class="card text-center">
+                    <img src="Resources/images/CityLatitudeVsCloudiness.png" class="card-img-top" alt="...">
+                    <div class="card-header">
+                      <h5 class="card-title">Cloudiness</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-lg-6 col-12">
+                <a href="visualizations/humidity.html" class="visualization-card-link">
+                  <div class="card text-center">
+                    <img src="Resources/images/CityLatitudeVsHumidity.png" class="card-img-top" alt="...">
+                    <div class="card-header">
+                      <h5 class="card-title">Humidity</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-lg-6 col-12">
+                <a href="visualizations/temperature.html" class="visualization-card-link">
+                  <div class="card text-center">
+                    <img src="Resources/images/CityLatitudeVsMaxTemperature.png" class="card-img-top" alt="...">
+                    <div class="card-header">
+                      <h5 class="card-title">Temperature</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-lg-6 col-12">
+                <a href="visualizations/windspeed.html" class="visualization-card-link">
+                  <div class="card text-center">
+                    <img src="Resources/images/CityLatitudeVsWindSpeed.png" class="card-img-top" alt="...">
+                    <div class="card-header">
+                      <h5 class="card-title">Wind Speed</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+      <!--col visualizations-->
+    </div>
+    <!--row-->
+  </div>
+  <!--container-->
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
