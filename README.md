@@ -1,6 +1,6 @@
 # web-design-challenge
 
-This project generates a website analyzing weather data visualizations and data generated in the [Python API Challenge](https://github.com/Jagjeet/python-api-challenge).
+This project generates a website analyzing weather data visualizations and data generated in the [Python API Challenge](https://github.com/Jagjeet/python-api-challenge). The final website can be viewed here: [City Latitude](https://jagjeet.github.io/web-design-challenge/index.html)
 
 ## Prerequisites
 
